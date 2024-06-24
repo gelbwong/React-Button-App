@@ -1,0 +1,25 @@
+.inputSearch {
+  width: 60%;
+  margin-right: 14px;
+}
+
+.inputSearch::placeholder {
+  color: var(--text-colour);
+}
+
+.inputSubmit,
+.inputSearch {
+  background-color: var(--secondary-colour);
+  color: var(--text-colour);
+}
+
+.searchEngineResult {
+  background-color: var(--secondary-colour) !important;
+  color: var(--text-colour) !important;
+  font-size: 20px;
+  margin: 0px 65px;
+}
+
+form {
+  margin-top: 40px;
+}

@@ -1,3 +1,9 @@
+:root {
+  --background-colour: rgb(232, 127, 28);
+  --secondary-colour: rgba(78, 113, 65, 0.784);
+  --text-colour: #062210;
+}
+
 .App {
   text-align: center;
 }
@@ -13,19 +19,17 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+  margin-top: 80px;
+}
+h1 {
+  padding-top: 60px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #2a7744;
 }
 
 @keyframes App-logo-spin {

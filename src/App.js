@@ -1,13 +1,14 @@
 import "./App.css";
 
-import WeatherButton from "./WeatherButton";
+import SearchEngine from "./SearchEngine";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React App</h1>
-        <p>This is my trial React App</p>
+    <div className="App container">
+      <h1 className="">Weather Search Engine</h1>
+      <p>
+        This is my trial React App{" "}
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -16,15 +17,13 @@ function App() {
         >
           Learn React
         </a>
-        <br />
-        <p>
-          Created with the guidance of{" "}
-          <a href="https://www.shecodes.io" target="_blank" rel="noreferrer">
-            SheCodes React
-          </a>
-        </p>
-        <WeatherButton city="Sydney" />
-      </header>
+      </p>
+
+      <br />
+
+      <SearchEngine />
+
+      <Footer />
     </div>
   );
 }
