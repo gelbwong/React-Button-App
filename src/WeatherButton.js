@@ -20,5 +20,9 @@ export default function WeatherButton(props) {
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=${unit}`;
     axios.get(apiUrl).then(displayWeather);
   }
-  return <button onClick={getWeather}>Weather in {props.city}</button>;
+  return (
+    <button className="p-3" onClick={getWeather}>
+      Weather in {props.city}
+    </button>
+  );
 }

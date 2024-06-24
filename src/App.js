@@ -17,7 +17,12 @@ function App() {
           Learn React
         </a>
         <br />
-        <p>Created with the guidance of SheCodes React</p>
+        <p>
+          Created with the guidance of{" "}
+          <a href="https://www.shecodes.io" target="_blank" rel="noreferrer">
+            SheCodes React
+          </a>
+        </p>
         <WeatherButton city="Sydney" />
       </header>
     </div>
